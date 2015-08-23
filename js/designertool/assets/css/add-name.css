@@ -1,0 +1,2138 @@
+.artColorUl.leftTab section
+{
+	border: 1px none black;
+	margin-left: 22px;
+	margin-top: 20px;
+	padding:0;
+}
+.leftTab section.addNameSection
+{
+	margin-top: 10px;
+}
+.addNameSection a.addText,#textColorBack.addText
+{
+	width: 228px;
+	height: 36px;
+	color:#FFFFFF;
+	cursor: pointer;
+}
+.addNameSection a.saveYourDesign
+{
+	color: #000000;
+}
+.addNameSection a.saveYourDesign:hover
+{
+	color: #47B7EE;
+}
+.addNameSection a.addText:hover
+{
+	width: 228px;
+	height: 36px;
+	color:#FFFFFF;
+	cursor: pointer;
+}
+.addNameHeaderSection span.noteBigTitle
+{
+	margin-top: 5px;
+}
+.addNameSmallHeading
+{
+	font-family: 'Open Sans','Sans serif';
+	font-size: 16px !important;
+	color: #000000;
+	display:block;
+}
+.addNameSmallHeading2
+{
+	font-family: 'Open Sans','Sans serif';
+	font-size: 13px !important;
+	color: #000000;
+	
+}
+.step1Header hr
+{
+	margin-top: 2px;
+	margin-left: -22px;
+}
+.step1Header2
+{
+	margin-left: 72px;
+	margin-top: -5px;
+}
+
+.addNameSection input.addNameCheck
+{
+	margin-top: 2px;
+	cursor: pointer;
+}
+.addNameSection input.addNumberCheck
+{
+	margin-left: 80px;
+	margin-top: 2px;
+	cursor: pointer;
+}
+.addNameSection span.firstCheck
+{
+	margin-left: -97px;
+}
+.addNameSection span.secondCheck
+{
+	margin-left: 35px;
+}
+.addNameSection ul li
+{
+	margin-top:5px;
+}
+.step1Header3
+{
+	/*height: 100px;
+	border: 1px solid red;*/
+	
+}
+
+.step1Header3 select
+{
+	width: 114px;
+	height: 21px;
+	font-size: 13px;
+	padding: 0px;
+	cursor: pointer;
+	
+}
+
+.addNameSection li.step1Header3 span.addNameSmallHeading2
+{
+	display: inline-block;
+    margin-left: 3px;
+    margin-top: 8px;
+    float: left;
+}
+.step1Header3 select.selectSideNumber
+{
+	margin-left:10px;
+	margin-top: 10px;
+}
+.step1Header3 select.selectSideName
+{
+	margin-left: 30px;
+    margin-top: 10px;
+}
+
+.divSideName
+{
+	margin-left: 62px;
+    margin-top: 10px;
+    width:114px;
+    height:21px;
+    border: 1px solid red;
+    display: block;
+    position: relative;
+}
+
+.addNameSection li.step1Header3 span.addNameSmallHeading2
+{
+	display: inline-block;
+    margin-left: 3px;
+    margin-top: 8px;
+    float: left;
+}
+.step1Header3 div.selectSideName
+{
+	margin-left: 61px;
+    margin-top: 10px;
+}
+.step1Header3 div.selectSideNumber
+{
+	margin-left: 188px;
+    margin-top: -23px;
+}
+
+
+.heightLI select.selectSideName
+{
+	margin-left: 15px;
+}
+.heightLI
+{
+	margin-top: -5px;
+}
+.colorLI
+{
+	margin-top: -5px;
+}
+
+.positionTitle span
+{
+	margin-left: 2px;
+	
+}
+.positionTitle a.addNameSmallHeading2
+{
+	margin-left: 18px;
+	cursor: pointer;
+}
+.positionTitle a.standardPositions
+{
+	margin-left: 3px;
+}
+.step2Header
+{
+	margin-top:19px;
+}
+.enterNameAndNumberLI
+{
+	margin-top:-20px;
+	margin-left:2px;
+}
+.addNameSection li.fullList
+{
+	margin-left: 6px;
+    margin-top: 9px;
+}
+.addNameSection li.namePrice
+{
+	margin-left: 5px;
+    margin-top: -3px;
+}
+
+.addNameSection li.pleaseRead
+{
+	margin-left: 6px;
+    margin-top: 22px;
+}
+.addNameSection li.commonHed
+{
+	margin-left: 6px;
+    margin-top: 3px;
+}
+.addNameSection a.noteBigTitle
+{
+	display: inline;
+	cursor: pointer;
+}
+.colorLI span.addNameSmallHeading2
+{
+	margin-top: 1px!important;
+}
+.nameTextColorHolder {
+	background: url("../images/arrow.jpg") no-repeat scroll 95% 8px #FFFFFF !important;
+	border: 1px solid #cacaca;
+	/*border-radius: 5px;*/
+	/*box-shadow: 0 0 10px 1px #ffffff;*/
+	background-color: #FFFFFF;
+	/*box-sizing: border-box;*/
+	height: 23px;
+	/*padding: 0 10px;*/
+	width: 114px;
+	position: relative;
+}
+
+.nameTextColorHolder  a {
+	font-size: 13px;
+	color: #686868;
+	display: block;
+}
+.nameTextColorHolder  a span {
+	display: inline-block;
+	/*line-height: 27px;*/
+	padding-left: 8px;
+}
+.nameTextColorHolder i.txt-color{
+	width: 20px;
+	height: 16px;
+	/*background: #000000;*/
+	float: left;
+	margin-top: 2px;
+	margin-left: 2px;
+}
+.nameColorUl
+{
+	width: 300px;
+	overflow: hidden
+	
+}
+.nameColorUl li
+{
+	float:left;
+	width: 22px;
+	height: 18px;
+	margin-top:2px;
+	margin-right: 3px;
+	/*border: 1px solid black;*/
+}
+.nameColorUl  li div
+{
+	width: 22px;
+	height: 18px;
+	cursor:pointer;
+	border: 1px solid black;
+	
+	
+}
+.nameColorUl  li div img.slectedColor
+{
+	margin-top: 0px;
+}
+.disabled
+{
+	pointer-events:none;
+	opacity: 0.4;
+}
+
+.enterNameNumberPopUp
+{
+	width: 600px;
+	position: fixed;
+	height:170px;
+	z-index: 1010;
+	left:0px;
+	top:0px;
+	display:none;
+	border:1px none red;
+	background: #fff;
+	padding-left:10px;
+	padding-top:3px;
+	font-family: 'Oswald', sans-serif;	
+}
+
+.enterNameNumberPopUp hr
+{
+	margin-top: 0px;
+}
+.enterNameNumberPopUp p{
+	font-family: 'Open Sans','Sans serif';
+	font-size: 13px !important;
+	color: #000000;
+	margin-left: 50px;
+    margin-top: -36px;
+}
+.enterNameNumberPopUp ul
+{
+	margin-top: 7px;
+}
+.enterNameNumberPopUp ul li
+{
+	float: left;
+	margin-right: 5px;
+}
+.enterNameNumberPopUp ul li a.addText
+{
+	width: auto;
+}
+.enterNameNumberPopUp ul li a.addText:hover
+{
+	color: #FFFFFF;
+}
+.enterNameNumberSizePopUp
+{
+	width: 853px;
+	position: fixed;
+	height:476px;
+	z-index: 1010;
+	left:0px;
+	top:0px;
+	display:none;
+	border:1px none red;
+	background: #fff;
+	
+	font-family: 'Oswald', sans-serif;	
+}
+.enterNameNumberSizePopUp div.horizontalRule
+{
+	height: 2px;
+    width: 826px;
+}
+.enterNameNumberSizePopUp ul li
+{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.enterNameNumberSizePopUp ul li img.closeNameSizePopup
+{
+	margin-left: 663px;
+    margin-top: -15px;
+    cursor: pointer;
+}
+.addNameSizeBigHeading
+{
+	font-family: 'Open Sans','Sans serif';
+	font-size: 16px !important;
+	color: #000000;
+}
+.tableHolder
+{
+	width: 469px;
+	height: 237px;
+	border: 1px solid black;
+	overflow: hidden;
+	overflow-y: auto;
+}
+.number-tb {
+	border: 1px solid #d8d8d8;
+	font-size: 13px;
+	color:#000000;
+	width: 100%;
+}
+.nameNumberLabel
+{
+	border: 1px solid #d8d8d8;
+	font-size: 13px;
+	color:#000000;
+	width: 470px;
+}
+.nameNumberLabel th, .nameNumberLabel td{
+	padding: 7px 0 7px 23px;
+	border-right: 1px solid #d8d8d8;
+	border-bottom: 1px solid #d8d8d8;
+	color: #000000;
+	height: 16px;
+	font-size: 14px;
+	line-height: 1;
+	background: #f7f7f7;
+}
+.nameNumberLabelLi table,nameNumberLabelLi a
+{
+	float: left;
+	margin-right: 30px;
+}
+.nameNumberLabelLi a.addText
+{
+	display: inline-block;
+}
+.nameNumberLabelLi a.addText:hover
+{
+	color: #FFFFFF;
+}
+.hintHolder
+{
+	width: 312px;
+	height: 143px;
+	background: #ececec;
+}
+.hintHolder a
+{
+	color: #000000;
+	font-weight: bold;
+}
+.hintHolder a:hover
+{
+	color: #47B7EE;
+	font-weight: bold;
+}
+.tableRowSeparator div
+{
+	margin-right: 30px;
+	float:left;
+}
+.tableRowSeparator
+{
+	display: inline-block;
+}
+.addNameSizePopup
+{
+	margin-top: -4px;
+	cursor: pointer;
+}
+.number-tb th, .number-tb td{
+	padding: 7px 0 7px 23px;
+	border-right: 1px solid #d8d8d8;
+	border-bottom: 1px solid #d8d8d8;
+	color: #000000;
+	height: 16px;
+	font-size: 14px;
+	line-height: 1;
+}
+
+.number-tb th.name {
+	width: 242px;
+}
+
+/*.number-tb th{
+	background: #ececec;
+}*/
+
+.number-tb th, .number-tb tr td:first-child {
+	background: #f7f7f7;
+}
+.number-tb th, .number-tb tr td.size {
+	width: 90px;
+}
+.number-tb td
+{
+	padding: 0px;
+}
+
+.textbox1, .textbox2 {
+	padding: 7px 5px 7px 23px;
+	width: 242px;
+	border: none !important;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	text-transform: uppercase;
+}
+.rowdeleteTr {
+	visibility: hidden;
+}
+.rowdelete {
+	cursor: pointer;
+}
+.textbox2 {
+	width: 113px;
+}
+.imageTest
+{
+	position:absolute;
+	top: 57px;
+	display: none;
+	
+	opacity: 0.6;
+}
+
+
+/***********************************Context Menu*******************************************/
+.rightClickPopup
+{
+	position: absolute;
+	left:273px;
+	top:250px;
+	border: 1px none red;
+	width: 97px;
+	height: auto;
+	display:none;
+	background-color: #f0f0f0;
+	box-shadow: 0px 0px 5px #888888;
+	
+	
+}
+.rightClickPopup2
+{
+	position: absolute;
+	left:273px;
+	top:250px;
+	border: 1px none red;
+	width: 97px;
+	height: auto;
+	display:none;
+	background-color: #f0f0f0;
+	box-shadow: 0px 0px 5px #888888;
+	
+	
+}
+.x-menu-list
+{
+	background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    overflow: hidden;
+    padding: 2px;
+    
+}
+
+a.x-menu-item {
+    cursor: pointer;
+    display: block;
+    line-height: 16px;
+    outline: 0 none;
+    padding: 3px 21px 3px 2px;
+    position: relative;
+    text-decoration: none;
+    white-space: nowrap;
+}
+span.x-menu-item-text
+{
+	font-size: 13px;
+	font-family: 'Open Sans','Sans Serif';
+	color:#000000;
+	margin-left: 5px;
+}
+.x-menu-list-item
+{
+	border: 1px solid #f0f0f0;
+	margin-top: 2px;
+}
+.rightClickPopup ul li:hover , .arrangeClickPopup ul li:hover, .rightClickPopup2 ul li:hover {
+    background-color: #dbecf4;
+   
+   	border: 1px solid #aaccf6;
+   	
+   
+}
+
+
+.arrangeClickPopup
+{
+	position: absolute;
+	left:373px;
+	top:350px;
+	border: 1px none red;
+	width: 125px;
+	height: auto;
+	display:none;
+	background-color: #f0f0f0;
+	box-shadow: 0px 0px 5px #888888;
+	
+	
+}
+.x-menu-sep-li {
+    font-size: 1px;
+    line-height: 1px;
+    background-color: #e0e0e0;
+    border-bottom-color: #fff;
+}
+
+.saveYourDesignPopUp
+{
+	width: 656px;
+	position: fixed;
+	height:520px;
+	z-index: 1010;
+	left:0px;
+	top:0px;
+	display:none;
+	border:1px none red;
+	background: #fff;
+	
+	font-family: 'Oswald', sans-serif;	
+}
+
+.saveYourDesignPopUp ul li
+{
+	margin-left: 10px;
+	margin-top: 10px;
+	line-height: 1;
+}
+.saveYourDesignPopUp ul li.save-table-info
+{
+	display: none;
+}
+.saveYourDesignPopUp ul li img.closeNameSizePopup
+{
+	margin-left: 619px;
+    margin-top: -22px;
+    cursor: pointer;
+}
+.saveYourDesignPopUp input[type='text']
+{
+	width: 337px;
+	height: 37px;
+	font-family: "Open Sans","Sans serif";
+    font-size: 13px;
+}
+.saveMaxCharecter
+{
+	color:#000000;
+	font-family: "Open Sans","Sans serif";
+    font-size: 16px;
+   	opacity: 0.4;
+}
+.saveYourDesignPopUp a.addText
+{
+	width:132px;
+}
+.saveDesignLi a, .saveDesignLi span
+{
+	float: left;
+	margin-left: 3px;
+}
+
+.saveDesignLi span, .saveDesignLi a.saveBoldTitle
+{
+	margin-top:5px;
+}
+.saveYourDesignPopUp a.saveBoldTitle, .saveYourDesignPopUp2 a.saveBoldTitle
+{
+	cursor:pointer;
+	color:#000000;
+	font-family: "Open Sans","Sans serif";
+    font-size: 16px;
+    font-weight: bold;
+}
+.saveYourDesignPopUp a.saveBoldTitle:focus, .saveYourDesignPopUp2 a.saveBoldTitle:focus
+{
+	cursor:pointer;
+	color:#000000;
+	font-family: "Open Sans","Sans serif";
+    font-size: 16px;
+    font-weight: bold;
+}
+.saveYourDesignPopUp a.saveBoldTitle:hover, .saveYourDesignPopUp2 a.saveBoldTitle:hover
+{
+	
+	color:#47b7ee;
+	cursor: pointer;
+}
+
+
+
+
+
+/********************************/
+.buyNowPopUp
+{
+	width: 656px;
+	position: fixed;
+	height:568px;
+	z-index: 1010;
+	left:0px;
+	top:0px;
+	display:none;
+	border:1px none red;
+	background: #fff;
+	
+	font-family: 'Oswald', sans-serif;	
+}
+
+.buyNowPopUp ul li
+{
+	margin-left: 10px;
+	margin-top: 10px;
+	line-height: 1;
+}
+.buyNowPopUp ul li img.closeNameSizePopup
+{
+	margin-left: 619px;
+    margin-top: -22px;
+    cursor: pointer;
+}
+.buyNowPopUp input[type='text']
+{
+	width: 337px;
+	height: 37px;
+	font-family: "Open Sans","Sans serif";
+    font-size: 13px;
+}
+
+.buyNowPopUp a.addText
+{
+	width:175px;
+}
+.saveDesignLi a, .saveDesignLi span
+{
+	float: left;
+	margin-left: 3px;
+}
+
+.saveDesignLi span, .saveDesignLi a.saveBoldTitle
+{
+	margin-top:5px;
+}
+.buyNowPopUp a.saveBoldTitle
+{
+	cursor:pointer;
+	color:#000000;
+	font-family: "Open Sans","Sans serif";
+    font-size: 16px;
+    font-weight: bold;
+}
+.buyNowPopUp a.saveBoldTitle:focus
+{
+	cursor:pointer;
+	color:#000000;
+	font-family: "Open Sans","Sans serif";
+    font-size: 16px;
+    font-weight: bold;
+}
+.buyNowPopUp a.saveBoldTitle:hover
+{
+	
+	color:#47b7ee;
+	cursor: pointer;
+}
+/*****************************/
+
+.saveYourDesignPopUp2
+{
+	width: 656px;
+	position: fixed;
+	height:520px;
+	z-index: 1010;
+	left:0px;
+	top:0px;
+	display:none;
+	border:1px none red;
+	background: #fff;
+	
+	font-family: 'Oswald', sans-serif;	
+}
+.saveYourDesignPopUp2 ul li
+{
+	margin-left: 10px;
+	margin-top: 10px;
+	line-height: 1;
+	display: inline-block;
+}
+.saveYourDesignPopUp2 div.sizeAndDeliveryWarning
+{
+	width: 520px;
+}
+.saveYourDesignPopUp2 ul li.currect-info div.sizeAndDeliveryWarning
+{
+	border-color: #47B7EE;
+}
+.saveYourDesignPopUp2 ul li.currect-info div.sizeAndDeliveryWarning span
+{
+	margin-top:-16px;
+}
+.saveYourDesignPopUp2 ul li.currect-info div.sizeAndDeliveryWarning img
+{
+	margin-top:10px;
+}
+.saveYourDesignPopUp2 ul li.currect-info div.sizeAndDeliveryWarning a
+{
+	color:#000000;
+	font-weight: bold;
+}
+.saveYourDesignPopUp2 ul li.currect-info div.sizeAndDeliveryWarning a:hover
+{
+	color:#47B7EE;
+}
+.saveYourDesignPopUp2 ul li img.closeNameSizePopup
+{
+	margin-left: 619px;
+    margin-top: -22px;
+    cursor: pointer;
+}
+.saveYourDesignPopUp2 div.partitionDiv div
+{
+	float: left;
+	/*border: 1px solid black;*/
+	margin-right: 5px;
+}
+.saveYourDesignPopUp2 div.partitionDiv div.leftPart
+{
+	width: 300px;
+	height: 340px;
+}
+.saveYourDesignPopUp2 div.partitionDiv div.midPart
+{
+	width: 2px;
+	height: 340px;
+	background: #ECECEC;
+}  
+.saveYourDesignPopUp2 div.partitionDiv div.rightPart
+{
+	width: 300px;
+	height: 340px;
+}
+.leftPart ul li
+{
+	margin-left: 0px;
+}
+.saveYourDesignPopUp2 input
+{
+	width: 300px;
+	height: 37px;
+	font-family: "Open Sans","Sans serif";
+    font-size: 13px;
+}
+.saveYourDesignPopUp2 a.addText
+{
+	width: 60px;
+	margin-left: 240px;
+	margin-top:-25px;
+}
+.saveTextArea
+{
+	width: 300px;
+	height: 50px;
+	font-family: "Open Sans","Sans serif";
+    font-size: 13px;
+    resize: none;
+    
+}
+.saveDesignLi2
+{
+	display: inline-block;
+}
+
+.saveDesignLi2 span
+{
+	display: inline-block;
+	font-size:13px !important;
+	width: 212px;
+}
+
+.horizontalRule
+{
+	width: 614px;
+	height:2px;
+	background: #ECECEC;
+}
+.socialShare 
+{
+	display: inline-flex;
+	display: -webkit-inline-flex;
+    margin-left: 173px;
+    margin-top: -34px;
+}
+.saveYourDesignPopUp2 .socialShare li
+{
+	float: left;
+	display: inline-flex;
+	display: -webkit-inline-flex;
+	margin-left: 25px;
+	
+	
+}
+.socialShare a {
+    background-image: url("../images/social.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    display: block;
+    height: 25px;
+    width: 25px;
+}
+.socialShare a.twitter-icon {
+	background-position: left -37px;
+}
+.socialShare a.pintrest-icon {
+	background-position: left -74px;
+}
+.socialShare span
+{
+	cursor:pointer;
+	color:#000000;
+	font-family: "Open Sans","Sans serif";
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+.socialShare span:hover
+{
+	color:#47b7ee;
+}
+.rightPart ul li
+{
+	 margin-bottom: 9px;
+}
+.rightPart a.addText
+{
+	margin: 0px;
+	width: 132px;
+}
+.errorLabel
+{
+	font-size: 13px;
+	color: #FF0000;
+	font-family: "Open Sans","Sans serif";
+	 left: 364px;
+    margin-top: 0;
+    position: absolute;
+    top: 122px;
+}
+.buyNowPopUp span.errorLabel
+{
+	font-size: 13px;
+	color: #FF0000;
+	font-family: "Open Sans","Sans serif";
+	 left: 364px;
+    margin-top: 0;
+    position: absolute;
+    top: 115px;
+}
+.errorLabel2
+{
+	font-size: 13px;
+	color: #FF0000;
+	font-family: "Open Sans","Sans serif";
+	 left: 364px;
+    margin-top: 0;
+    position: absolute;
+    top: 215px;
+}
+.buyNowPopUp span.errorLabel2
+{
+	top:237px;
+}
+.buyNowPopUp span.top-header
+{
+	line-height: 1px;
+}
+
+.errorLabel3
+{
+	font-size: 13px;
+	color: #FF0000;
+	font-family: "Open Sans","Sans serif";
+	 left: 364px;
+    margin-top: 0;
+    position: absolute;
+    top: 334px;
+}
+.errorInputBlock
+{
+	border: 1px solid red !important;
+	
+}
+
+.getPricePopUp
+{
+	width: 756px;
+	position: fixed;
+	height:520px;
+	z-index: 1010;
+	left:0px;
+	top:0px;
+	display:none;
+	border:1px none red;
+	background: #fff;
+	font-family: 'Oswald', sans-serif;
+}
+.getPricePopUp ul li
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	display: block;
+}
+.getPricePopUp ul li img.closeNameSizePopup
+{
+	margin-left: 720px;
+    margin-top: -9px;
+    cursor: pointer;
+}
+.getPricePopUp span.top-header
+{
+	line-height: 1px;
+}
+.getSizeHolder
+{
+	width: 100%;
+	height: 136px;
+	/*border: 1px solid red;*/
+	position: relative;
+	background: #cec6bb;
+	
+}
+.getSizeHolder div
+{
+	float: left;
+	margin-right: 10px;
+}
+.canvasPreview
+{
+	position: absolute;
+	left: 12px;
+	top: 10px;
+	
+	height:115px;
+}
+.leftGetPrice
+{
+	width: 156px;
+	height: 136px;
+	border: 1px none green;
+}
+.rightGetPrice div
+{
+	float: none;
+	margin: 0px;
+}
+.rightGetPrice
+{
+	width: 458px;
+	height: 136px;
+	border: 1px none green;
+}
+.item-sizes-container div.item-size
+{
+	float: left;margin-left:10px;font-size: 12px;color: #000000;font-family: "Open Sans","Sans serif";
+}
+.item-size input
+{
+	width: 27px;height: 20px;padding: 0px;border: 1px solid;
+}
+
+
+.item-size-values div.item-size-label-and-input
+{
+	
+	width: auto;margin-right: 3px;
+	
+	
+	
+}
+.rightGetPrice div.item-size-values div.item-size-label-and-input
+{
+	width: auto;margin-right: 3px;float: left;text-align:center;
+}
+.sizeAlign
+{
+	text-align: center;
+}
+.zipCode
+{
+	width: 150px;
+	height: 35px;
+	padding: 0px;
+	font-size: 13px;
+}
+.getPricePopUp span.shiftOr
+{
+	margin-top: 3px;
+}
+.getPricePopUp a.addNameSizeBigHeading
+{
+	
+	cursor: pointer;
+	margin-top: 3px;
+}
+.getPricePopUp a.addNameSizeBigHeading:hover
+{
+	color:#47b7ee;
+	cursor: pointer;
+}
+.getPricePopUp a.addNameSizeBigHeading:focus
+{
+	color: #000000;
+	
+}
+.getPriceLi a, .getPriceLi span
+{
+	float: left;
+	margin-left: 3px;
+}
+
+.getPriceLi span, .getPriceLi a.saveBoldTitle
+{
+	/*margin-top:5px;*/
+}
+.getSizeHolderParent div.viewSizeLineUp
+{
+	left: 580px;
+    position: absolute;
+    top: 111px;
+	
+}
+.getSizeHolderParent div.viewSizeLineUp a
+{
+	display: inline-flex;
+	display: -webkit-inline-flex;	
+}
+.getSizeHolderParent div.viewSizeLineUp a:focus
+{
+	color: #000000;
+	
+}
+.getSizeHolderParent div.viewSizeLineUp span.upperWord
+{
+	font-size: 11px;
+	margin-top: 0px;
+}
+
+.getPricePopUp2
+{
+	width: 790px;
+	position: fixed;
+	height:520px;
+	z-index: 1010;
+	left:0px;
+	top:0px;
+	display:none;
+	/*border:1px solid red;*/
+	background: #fff;
+	font-family: 'Oswald', sans-serif;
+}
+.getPricePopUp2 div.leftGetPrice2, .getPricePopUp2 div.rightGetPrice2
+{
+	float: left;
+	
+	width:390px;
+	height: 100%;
+	
+}
+.getPricePopUp2 ul li
+{
+	margin-left: 10px;
+	margin-top: 10px;
+	display:inline-block;
+	line-height: 1;
+}
+.getPricePopUp2 img.closeNameSizePopup
+{
+	cursor: pointer;
+    margin-left: 367px;
+    margin-top: 3px
+}
+.previewHolder div.frontPreview, .previewHolder div.backPreview
+{
+	float: left;
+	position: relative;
+	width: 182px;
+	height: 164px;
+	
+	margin-left: 3px;
+	background-color: #dcd9d4;
+	
+}
+
+.canImage
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 182px;
+	height: 164px;
+}
+
+.getPricePopUp2 div.getPriceQtyInfo, .getPricePopUp2 div.seeMorePricingInfo
+{
+	width: 370px;
+	height: 100px;
+	background: #eeeeee;
+	
+}
+.getPricePopUp2 li.seeMorePricingLi 
+{
+	margin-top: 60px;
+}
+.getPricePopUp2 div.seeMorePricingInfo  div
+{
+	
+	height: auto;
+	text-align: center;
+	margin-top: 6px;
+}
+.seeMorePricingInfo a
+{
+	font-size: 13px;
+	color: #000000;
+	cursor: pointer;
+	font-family: "Open Sans","Sans serif";
+}
+.seeMorePricingInfo a:hover
+{
+	font-size: 13px;
+	color: #47b7ee;
+	
+}
+.seeMorePricingInfo a:focus
+{
+	font-size: 13px;
+	color: #000000;
+}
+.getPriceQtyInfo span
+{
+	display: block;
+	margin-left: 5px;
+	margin-top:5px
+}
+.getPriceQtyInfo span.singlePrice
+{
+	font-size: 16px;
+	color: #000000;
+	float: right;
+	margin-right: 6px;
+	margin-top: 12px;
+}
+.getPriceChangeQty a.addText
+{
+	display: inline-block;
+	margin-left: 10px;
+}
+.preloaderHolder
+{
+	width: 380px;
+	position: fixed;
+	height:180px;
+	z-index: 9999;
+	left:0px;
+	box-shadow:2px 2px 2px #888888;
+	-moz-box-shadow:2px 2px 2px #888888;
+	-webkit-box-shadow:2px 2px 2px #888888;
+	top:0px;
+	display:none;
+	/*border:1px solid red;*/
+	border-radius:14px;
+	background: #fff;
+	font-family: 'Oswald', sans-serif;	
+}
+.preloaderHolder div.preloaderDiv
+{
+	margin-left: 10px;
+	margin-top: 10px;
+	display: inline-block;
+	/*border:1px solid red;*/
+	width: 360px;
+	height: 160px;
+	background:#47b7ee;
+	border-radius: 5px;
+	
+}
+
+.preloaderDiv span
+{
+	display: block;
+	text-align: center;
+	
+}
+
+.preloaderDiv span.preloaderHeading
+{
+	color: #ffffff;
+    font-family: "titilliummaps26l999_wt";
+    font-size: 32px;
+    font-weight: normal;
+    text-shadow: 2px 3px 2px #888888;
+    margin-top:18px;
+}
+.preloaderDiv span.preloaderSubHeading
+{
+	color: #ffffff;
+    font-family: "titilliummaps26l999_wt";
+    font-size: 22px;
+    
+}
+.preloaderDiv img
+{
+	margin-left: 74px;
+	margin-top: 20px;
+}
+.priceSection
+{
+	width: 100%;
+	
+	border: 1px none red;
+}
+.priceSection div.sectionElement
+{
+	margin-left: 10px;
+	margin-bottom:10px; 
+}
+.pecentage
+{
+	color: #000000;
+    display: inline-block;
+   
+    font-family: "Open Sans","Sans serif";
+    font-size: 14px;
+    line-height: 1;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 160px;
+}
+.discount-sumary
+{
+	font-size:26px;
+	color: #000000;
+	font-family: "Open Sans","Sans serif";
+	text-decoration: line-through;
+}
+.totalPriceSection
+{
+	font-size:26px;
+	color: #000000;
+	font-family: "Open Sans","Sans serif";
+}
+.totalPriceSection span
+{
+	font-size:16px;
+	color: #000000;
+	font-family: "Open Sans","Sans serif";
+	margin-left: 5px;
+}
+.avg-summary, .avg-summary span
+{
+	font-size: 16px;
+	color: #000000;
+	font-family: "Open Sans","Sans serif";
+	
+}
+.qw-bold
+{
+	font-weight: bold;
+}
+.sectionElement img
+{
+	height: 90px;
+    margin-left: -20px;
+    margin-top: 46px;
+    padding-right: 8px;
+    width: 164px;
+}
+.shipping_box
+{
+	color: #000000;
+    float: right;
+    font-size: 16px;
+   	margin-top:46px;
+    margin-right: 33px;
+    width: 175px;
+}
+.shipping_box span
+{
+	font-weight: bold;
+}
+
+.shippingAddress
+{
+	font-family: "Open Sans","Sans serif";
+	color: #000000;
+    display:inline-flex;
+    display:-webkit-inline-flex;
+    font-size: 13px;
+   
+}
+.shippingAddress a.addText
+{
+	margin-left: 10px;
+    margin-top: -5px;
+}
+.shippingDate
+{
+	font-family: "Open Sans","Sans serif";
+	color: #000000;
+   
+    font-size: 13px;
+}
+.shippingDate a
+{
+	
+	color: #000000;
+	font-weight: bold;
+	
+}
+.shippingDate a:hover
+{
+	color:#47b7ee;
+}
+.buy-now-section-header
+{
+	position: absolute;
+	top: 470px;
+	
+}
+.buy-now-section a
+{
+	float: left;
+	margin-right:10px;
+}
+.buy-now
+{
+	
+	background: #eeeeee;
+	font-size: 1.6em;
+	
+	width:80px;
+	height:32px;
+	
+	text-align: center;
+	line-height: 2;
+	font-size: 16px;
+	color:#ffffff;
+	font-family: 'Open Sans','Sans serif';
+	font-weight: normal;
+}
+.buy-now:focus
+{
+	background:#4CB500;
+	color:#FFFFFF;
+	cursor: pointer;
+}
+.buy-now:hover
+{
+	background: #ff4545;
+	color:#FFFFFF;
+	cursor: pointer;
+}
+.save-Continue
+{
+	
+	background: #4CB500;
+	font-size: 1.6em;
+	
+	width:230px;
+	height:32px;
+	text-align: center;
+	line-height: 2;
+
+	font-size: 16px;
+	color:#FFFFFF;
+	font-family: 'Open Sans','Sans serif';
+	font-weight: normal;
+}
+.save-Continue:focus
+{
+	background:#4CB500;
+	color:#FFFFFF;
+	cursor: pointer;
+}
+.save-Continue:hover
+{
+	background: #ff4545;
+	color:#FFFFFF;
+	cursor: pointer;
+}
+.empty-design-section
+{
+	border: 1px none #ff4545;
+	font-size: 16px;
+	color:#000000;
+	font-family: 'Open Sans','Sans serif';
+	font-weight: normal;	
+}
+.empty-design-section div.instruct-section
+{
+	margin-left: 34px;
+    margin-top: -22px;
+}
+.empty-design-section a
+{
+	color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+.empty-design-section a:hover
+{
+	color: #47b7ee;
+    
+}
+
+.sizeAndDeliveryWarning
+{
+	
+	width: 500px;
+	border-color: #ff4545;
+	border-style:solid;
+	border-top-width: 10px; 
+    border-right-width:1px; 
+    border-bottom-width: 1px; 
+    border-left-width:1px; 
+}
+.sizeAndDeliveryWarning img, .empty-design-section img
+{
+	width: 22px;
+}
+.sizeAndDeliveryWarning span
+{
+	
+    margin-left: 38px;
+}
+.sizeAndDeliveryWarning div
+{
+	color: #ff4545;
+    font-size: 16px;
+    margin-left: 37px;
+    margin-top: -22px;
+}
+.designNameCheck div
+{
+	margin-top: 10px;
+	font-size: 16px;
+}
+.designNameCheck input[type="radio"]
+{
+	
+}
+/***********************************End Context Menu**********************************************/
+/******************************************Product Layers***************************************/
+.product-layer-color-holder
+{
+	font-size: 16px;
+	color:black;
+	
+	font-family: 'titilliummaps26l999_wt';
+	font-weight: normal;
+	
+}
+.product-layer-title
+{
+	line-height:1;
+	background-color: gray;
+	
+}
+.product-layer-color-holder div.product-layer
+{
+	line-height: 1px;
+	float: left;
+	border: 1px solid black;
+	margin-right: 3px;
+	padding: 0px;
+	text-align: center;
+	cursor: pointer;
+}
+.layer-and-color
+{
+	width: 470px;
+	height: 100px;
+	border: 1px solid gray;
+	padding-left: 6px;
+	padding-top: 5px;
+	overflow-x: hidden;
+}
+.product-layer-holder
+{
+	width: 460px;
+	
+}
+.product-layer-color
+{
+	width: 460px;
+	
+	border: 1px none black;
+	margin-top: 42px;
+}
+.product-bg-color
+{
+	
+	width: 22px;
+	height: 18px;
+}
+
+
+
+.product-layer-color ul li
+{
+	float:left;
+	width: 22px;
+	height: 18px;
+	cursor:pointer;
+	margin-right: 3px;
+	margin-top:3px;
+	
+}
+.product-layer-color ul li div
+{
+	width: 22px;
+	height: 18px;
+	border: 1px solid black;
+	
+	
+}
+
+.getPricePopUp div.minQtyWarning a
+{
+	color: #000000;
+	font-weight: bold;
+}
+.getPricePopUp div.minQtyWarning a:hover
+{
+	color:#47B7EE;
+}
+.product-layer-color-holder div.active
+{
+	box-shadow:0px 0px 3px 2px #000000;
+	-moz-box-shadow:0px 0px 3px 2px #000000;
+	-webkit-box-shadow:0px 0px 3px 2px #000000;
+}
+
+.upload1PopUp
+{
+	width: 656px;
+	position: fixed;
+	height:520px;
+	z-index: 1010;
+	left:0px;
+	top:0px;
+	display:none;
+	border:1px none red;
+	background: #fff;
+	
+	font-family: 'Oswald', sans-serif;	
+}
+
+.upload1PopUp ul li
+{
+	margin-left: 10px;
+	margin-top: 10px;
+	line-height: 1;
+}
+.upload1PopUp ul li img.closeNameSizePopup
+{
+	margin-left: 619px;
+    margin-top: -22px;
+    cursor: pointer;
+}
+.upload1PopUp div.upload-panel input[type='text']
+{
+	width: 252px;
+	height: 37px;
+	font-family: "Open Sans","Sans serif";
+    font-size: 13px;
+}
+.upload1PopUp div.upload-panel input[type='button']
+{
+	width: 100px;
+	height: 37px;
+	font-family: "Open Sans","Sans serif";
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #4cb500;
+}
+.upload1PopUp div.upload-panel input[type='button']:hover
+{
+	width: 100px;
+	height: 37px;
+	font-family: "Open Sans","Sans serif";
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #FF4545;
+}
+.upload1PopUp span.addNameSmallHeading2 a
+{
+	font-weight: bold;
+	color: #000000;
+}
+.upload1PopUp span.addNameSmallHeading2 a:hover
+{
+	font-weight: bold;
+	color: #41ade2;
+}
+.upload-cancel-upload input[type='submit']
+{
+	line-height: 1;
+	margin-top: 10px;
+}
+.upload-panel span.errorLabel
+{
+	font-size: 15px;
+    top: 114px;
+}
+.upload-cancel-upload a, upload-cancel-upload input[type='submit']
+{
+	float: left;
+	margin-right:50px;
+}
+/* Custome file button*/
+.customfile-wrap {
+  position: relative;
+  padding: 0;
+  margin-bottom: .5em;
+}
+.customfile-filename {
+  width: 85px;
+  padding: .4em .5em;
+  border: 2px solid #c5c5c6;
+  border-radius: 2px 0 0 2px;
+  margin-right: 10px;
+  height: 20px;
+}
+.customfile-filename:focus { 
+  outline: none;
+}
+
+.customfile-upload {
+  background-color:#4cb500;
+  display: inline-block;
+  width: 87px;
+  height: 38px;
+  font-family: "Open Sans","Sans serif";
+  font-size: 16px;
+  color:#FFFFFF;
+  margin-left: -1px; /* align with input */
+  cursor: pointer;
+  border: 0px;
+  text-align: center;
+
+}
+
+.progress-bar-holder
+{
+	width: 500px;
+	height:20px;
+	position: relative;
+	border: 1px none red;
+}
+.upload-image-section
+{
+	width: 100%;
+	height: 100%;
+	border:1px none red;
+}
+.upload-image-section div.left-image-color-holder, .upload-image-section div.right-image-holder
+{
+	border: 1px none black;
+    float: left;
+    height: 383px;
+    margin-right: 5px;
+    width: 348px;
+   
+}
+.left-image-color-holder span
+{
+	display: block;
+	margin-bottom: 10px;
+}
+.progress-bar-percentage
+{
+	background-color: #47b7ee;
+    border-radius: 10px;
+    height: 20px;
+    width: 6px;
+}
+.upload-image-section div.sizeAndDeliveryWarning
+{
+	
+    margin-top: 10px;
+    width: 300px;
+    height:30px;
+}
+
+.save-category-popup
+{
+	width: 422px;
+	position: fixed;
+	height:350px;
+	z-index: 1010;
+	left:0px;
+	top:0px;
+	display:none;
+	border:1px none red;
+	background: #fff;
+	
+	font-family: 'Oswald', sans-serif;
+}
+
+.save-category-popup ul li
+{
+	margin-left: 10px;
+	margin-top: 10px;
+	line-height: 1;
+	display: block;
+}
+
+.save-category-popup ul li img.closeNameSizePopup
+{
+	cursor: pointer;
+    left: 397px;
+    position: absolute;
+    top: 3px;
+}
+.save-category-popup label
+{
+	font-size:14px;
+}
+.save-category-popup div.horizontalRule
+{
+	width:404px;
+}
+.save-category-popup input.design-name-txt
+{
+	font-size: 13px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+.save-category-popup a.addText
+{
+	width:150px;	
+}
+
+.save-category-popup div.item-size-values
+{
+	
+	width:162px;
+	max-width:100%;
+	height: 211px;
+	overflow: auto;
+	
+}
+.save-category-popup div.item-size-values div.item-size-label-and-input
+{
+	margin-right:8px;
+}
+.save-category-popup div.item-size-label-and-input div
+{
+	width: 100%;
+	height:100%;
+	margin-top: 5px;
+	
+	
+}
+.save-category-popup div.item-size-label-and-input div input, .save-category-popup div.item-size-label-and-input div span
+{
+	font-size: 13px;
+	color:#000000;
+}
+
+.artResizeErrorPopUp
+{
+	width: 422px;
+	position: fixed;
+	height:203px;
+	z-index: 1010;
+	left:0px;
+	top:0px;
+	display:none;
+	border:1px none red;
+	background: #fff;
+	
+	font-family: 'Oswald', sans-serif;	
+}
+
+.artResizeErrorPopUp ul li
+{
+	margin-left: 10px;
+	margin-top: 10px;
+	line-height: 1;
+}
+.artResizeErrorPopUp ul li img.closeNameSizePopup
+{
+	cursor: pointer;
+    left: 10px;
+    position: absolute;
+    top: 35px;
+    width: 34px;
+}
+.artResizeErrorPopUp div.artErrorSection
+{
+	border: 1px none black;
+    margin-left: 50px;
+    margin-top: 7px;
+}
+.artResizeErrorPopUp div.horizontalRule
+{
+	width: 390px;
+}
+.artResizeErrorPopUp div.artErrorSection span
+{
+	display: block;
+}
+.artResizeErrorPopUp a.addText
+{
+	margin-left: 10px;
+    margin-top: 78px;
+}
+.upload2PopUp
+{
+	width: 718px;
+	position: fixed;
+	height:520px;
+	z-index: 1010;
+	left:0px;
+	top:0px;
+	display:none;
+	border:1px none red;
+	background: #fff;
+	
+	font-family: 'Oswald', sans-serif;	
+}
+.upload2PopUp span.back-browse-popup
+{
+	font-family: 'Open Sans','Sans serif';
+	font-size: 13px !important;
+	color: #000000;
+	cursor: pointer !important;
+}
+.upload2PopUp span.back-browse-popup:hover
+{
+	font-family: 'Open Sans','Sans serif';
+	font-size: 13px !important;
+	color: #47b7ee;
+	cursor: pointer !important;
+}
+.upload2PopUp ul.upper-ul li
+{
+	margin-left: 10px;
+	margin-top: 10px;
+	line-height: 1;
+}
+.upload2PopUp ul li img.closeNameSizePopup
+{
+	cursor: pointer;
+    left: 690px;
+    position: absolute;
+    top: 4px;
+}
+.customfile-upload:hover {
+	
+	background-color:#FF4545;
+}
+.customfile-upload::-moz-focus-inner { /* Fix firefox padding */
+  padding: 0; border: 0 
+}
+
+
+.upload2PopUp ul.uploadColorUl
+{
+	width: 300px;
+	overflow: hidden
+	
+}
+.upload2PopUp a.addText
+{
+	margin-top: 10px;
+    width: 150px;
+}
+.upload2PopUp ul.uploadColorUl li
+{
+	float:left;
+	width: 22px;
+	height: 18px;
+	margin-top:2px;
+	margin-right: 3px;
+	margin-left: 0px;
+	/*border: 1px solid black;*/
+}
+.uploadColorUl  li div
+{
+	width: 22px;
+	height: 18px;
+	cursor:pointer;
+	border: 1px solid red;
+	
+	
+}
+
+.uploadColorUl  li div img.slectedColor
+{
+	margin-top: 1px;
+}
+.upload2PopUp div.horizontalRule
+{
+	width: 682px;
+}
+.need-help-sec strong.contact-us
+{
+	cursor: pointer;
+}
+
+/******************************************End Product Layers***************************************/
+
+
+/*vishnu css starts here*/
+.accept-file-types h4{
+	font-size: 18px;
+	line-height: 1.2;
+	font-family: 'Open Sans','Sans serif';
+}
+.accept-file-types h4 span{
+	font-size: 13px;
+	line-height: 1.2;
+}
+.accept-file-types li{
+	font-family: 'Open Sans','Sans serif';
+	font-size: 12px;
+	line-height: 1.2;
+	width: 47%;
+	float: left;
+	
+}
+.accept-file-types{
+	padding-bottom: 20px;
+	padding-top: 15px;
+	color: #000;
+}
+
+
+
+.leftTab_text section.textSettingSection a.resize
+{
+  	background-color: #8869ca;
+    color: #ffffff;
+    display: inline-block;
+    font-family: "Open Sans","Sans serif";
+    font-size: 11px;
+    font-weight: normal;
+    height: 19px;
+    padding-left: 7px;
+    padding-top: 3px;
+    vertical-align: top;
+    width: 45px;	
+}
+.leftTab_text section.textSettingSection a.resize:hover
+{
+	background-color:#FF4545; 
+	color:#ffffff;
+}
+
+.saveYourDesignPopUp a.addText{
+	line-height: 29px;
+}
+.getPricePopUp .getPriceLi a, .tool-wrap .getPricePopUp span.shiftOr, .getPricePopUp .getPricePopUp a.addNameSizeBigHeading{
+	line-height: 29px;
+	margin-top: 0;
+}
+.saveDesignLi2 .addText{
+	line-height: 30px;
+}
+.saveYourDesignPopUp .saveDesignLi span,  .saveYourDesignPopUp .saveDesignLi a.saveBoldTitle{
+line-height: 29px;
+margin-top: 0;	
+}
+#add-name .addNameSection a.addText{
+	line-height: 33px;
+	
+}
+#add-note .addText{
+	line-height: 29px;
+}
+.editTxtPage .updatebutton li a, .textShapeCancelBtn{
+	line-height: 23px;
+}
+.editTxtPage .updatebutton li a, .textShapeCancelBtn{
+	padding-left: 0;
+	text-align: center;
+}
+.uploadSection .uploadBtn{
+	line-height: 30px;
+}
+#add-art .searchContainer a.searchBtn{
+	line-height: 33px;
+}
+.upload-cancel-upload .addText{
+	line-height: 29px;
+}
+.upload-cancel-upload input[type="submit"]{
+	line-height: 29px;
+	padding: 0;
+}
+.searchContainer1 .searchBtn{
+	line-height: 33px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ .saveYourDesignPopUp a.addText{
+	line-height: 32px;
+}
+.getPricePopUp .getPriceLi a, .tool-wrap .getPricePopUp span.shiftOr, .getPricePopUp .getPricePopUp a.addNameSizeBigHeading{
+	line-height: 32px;
+	margin-top: 0;
+}
+.saveDesignLi2 .addText{
+	line-height: 32px;
+}
+.saveYourDesignPopUp .saveDesignLi span,  .saveYourDesignPopUp .saveDesignLi a.saveBoldTitle{
+line-height: 29px;
+margin-top: 0;	
+}
+#add-name .addNameSection a.addText{
+	line-height: 36px;
+	
+}
+#add-note .addText{
+	line-height: 32px;
+}
+.addText{
+	line-height: 32px;
+}
+ .editTxtPage .updatebutton li a, .textShapeCancelBtn{
+	line-height: 25px;
+}
+.addTextSetter{
+	line-height: 28px;
+}
+.uploadSection .uploadBtn{
+	line-height: 32px;
+}
+#add-art .searchContainer a.searchBtn{
+	line-height: 35px;
+}
+ .upload-cancel-upload input[type="submit"]{
+	line-height: 32px;
+}
+.searchContainer1 .searchBtn{
+	line-height: 35px;
+}
+ 
+ 
+ 
+ }
+ .positionTitle
+ {
+ 	visibility: hidden;
+ }
+
+/*vishnu css ends here*/
+
+
