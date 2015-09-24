@@ -1,0 +1,362 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <designersoftware translate="label" module="designersoftware">
+            <label>Designer Software</label>
+            <sort_order>200</sort_order>
+        </designersoftware>
+    </tabs>
+    <sections>
+		<designergeneral>
+			<label>General</label>
+            <tab>designersoftware</tab>
+            <sort_order>0</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+				<general>
+					<label>Add Text Section</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+						<!--<general_logo translate="label">
+                            <label>Default Logo</label>
+                            <comment><![CDATA[Allowed file types: ICO, PNG, GIF, JPG, JPEG, APNG, SVG. Not all browsers support all these formats!.]]></comment>
+                            <frontend_type>file</frontend_type>
+                            <backend_model>adminhtml/system_config_backend_file</backend_model>
+                            <upload_dir>media/files/logo</upload_dir>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </general_logo>-->
+                        <general_font translate="label">
+                            <label>Default Font</label>
+                            <comment><![CDATA[Select Default font for "ADD TEXT" section on Designer Tool ]]></comment>
+                            <frontend_type>select</frontend_type>                           
+                            <source_model>designersoftware/adminhtml_system_config_source_fonts</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </general_font> 
+                        <general_greekfont translate="label">
+                            <label>Default Greek Font</label>
+                            <comment><![CDATA[Select Default font for "ADD TEXT" section on Designer Tool ]]></comment>
+                            <frontend_type>select</frontend_type>                           
+                            <source_model>designersoftware/adminhtml_system_config_source_fonts</source_model>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </general_greekfont>                       
+                    </fields>
+				</general>
+				<addname>
+					<label>Add Name Section</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>4</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>						
+                        <addname_font translate="label">
+                            <label>Default Font</label>
+                            <comment><![CDATA[Select Default font for "ADD NAME" section on Designer Tool ]]></comment>
+                            <frontend_type>select</frontend_type>                           
+                            <source_model>designersoftware/adminhtml_system_config_source_fonts</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </addname_font>                        
+                    </fields>
+				</addname>
+            </groups>
+		</designergeneral> 
+		<designer_drawarea>
+			<label>Draw Area</label>
+            <tab>designersoftware</tab>
+            <sort_order>1</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+				<front>
+					<label>Front View</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>						
+                        <adults_X translate="label">
+                            <label>Adults X</label>
+                            <comment><![CDATA[Enter X Co-ordinate]]></comment>
+                            <frontend_type>text</frontend_type>                                                       
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </adults_X>
+                        <adults_Y translate="label">
+                            <label>Adults Y</label>
+                            <comment><![CDATA[Enter Y Co-ordinate]]></comment>
+                            <frontend_type>text</frontend_type>                                                       
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </adults_Y>
+                        <adults_width translate="label">
+                            <label>Adults Width</label>
+                            <comment><![CDATA[Enter Width of Canvas]]></comment>
+                            <frontend_type>text</frontend_type>                                                       
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </adults_width>
+                        <adults_height translate="label">
+                            <label>Adults Height</label>
+                            <comment><![CDATA[Enter Height of Canvas]]></comment>
+                            <frontend_type>text</frontend_type>                                                       
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </adults_height>
+                        <youth_X translate="label">
+                            <label>Youth X</label>
+                            <comment><![CDATA[Enter X Co-ordinate]]></comment>
+                            <frontend_type>text</frontend_type>                                                       
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </youth_X>
+                        <youth_Y translate="label">
+                            <label>Youth Y</label>
+                            <comment><![CDATA[Enter Y Co-ordinate]]></comment>
+                            <frontend_type>text</frontend_type>                                                       
+                            <sort_order>6</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </youth_Y>
+                        <youth_width translate="label">
+                            <label>Youth Width</label>
+                            <comment><![CDATA[Enter Width of Canvas]]></comment>
+                            <frontend_type>text</frontend_type>                                                       
+                            <sort_order>7</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </youth_width>
+                        <youth_height translate="label">
+                            <label>Youth Height</label>
+                            <comment><![CDATA[Enter Height of Canvas]]></comment>
+                            <frontend_type>text</frontend_type>                                                       
+                            <sort_order>8</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </youth_height>
+                        <chest_X translate="label">
+                            <label>Left Chest X</label>
+                            <comment><![CDATA[Enter X Co-ordinate]]></comment>
+                            <frontend_type>text</frontend_type>                                                       
+                            <sort_order>9</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </chest_X>
+                        <chest_Y translate="label">
+                            <label>Left Chest Y</label>
+                            <comment><![CDATA[Enter Y Co-ordinate]]></comment>
+                            <frontend_type>text</frontend_type>                                                       
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </chest_Y>
+                        <chest_width translate="label">
+                            <label>Left Chest Width</label>
+                            <comment><![CDATA[Enter Width of Canvas]]></comment>
+                            <frontend_type>text</frontend_type>                                                       
+                            <sort_order>11</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </chest_width>
+                        <chest_height translate="label">
+                            <label>Left Chest Height</label>
+                            <comment><![CDATA[Enter Height of Canvas]]></comment>
+                            <frontend_type>text</frontend_type>                                                       
+                            <sort_order>12</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </chest_height>
+                    </fields>
+				</front>
+				<back>
+					<label>Back View</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>2</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>						
+                        <adults_X translate="label">
+                            <label>Adults X</label>
+                            <comment><![CDATA[Enter X Co-ordinate]]></comment>
+                            <frontend_type>text</frontend_type>                                                       
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </adults_X>
+                        <adults_Y translate="label">
+                            <label>Adults Y</label>
+                            <comment><![CDATA[Enter Y Co-ordinate]]></comment>
+                            <frontend_type>text</frontend_type>                                                       
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </adults_Y>
+                        <adults_width translate="label">
+                            <label>Adults Width</label>
+                            <comment><![CDATA[Enter Width of Canvas]]></comment>
+                            <frontend_type>text</frontend_type>                                                       
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </adults_width>
+                        <adults_height translate="label">
+                            <label>Adults Height</label>
+                            <comment><![CDATA[Enter Height of Canvas]]></comment>
+                            <frontend_type>text</frontend_type>                                                       
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </adults_height>
+                        <youth_X translate="label">
+                            <label>Youth X</label>
+                            <comment><![CDATA[Enter X Co-ordinate]]></comment>
+                            <frontend_type>text</frontend_type>                                                       
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </youth_X>
+                        <youth_Y translate="label">
+                            <label>Youth Y</label>
+                            <comment><![CDATA[Enter Y Co-ordinate]]></comment>
+                            <frontend_type>text</frontend_type>                                                       
+                            <sort_order>6</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </youth_Y>
+                        <youth_width translate="label">
+                            <label>Youth Width</label>
+                            <comment><![CDATA[Enter Width of Canvas]]></comment>
+                            <frontend_type>text</frontend_type>                                                       
+                            <sort_order>7</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </youth_width>
+                        <youth_height translate="label">
+                            <label>Youth Height</label>
+                            <comment><![CDATA[Enter Height of Canvas]]></comment>
+                            <frontend_type>text</frontend_type>                                                       
+                            <sort_order>8</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>							
+                        </youth_height>                        
+                    </fields>
+				</back>
+            </groups>
+		</designer_drawarea>
+		<designer_sizes>
+			<label>Size</label>
+            <tab>designersoftware</tab>
+            <sort_order>3</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+			<groups>
+				<youth>
+						<label>Youth Sizes</label>
+						<frontend_type>text</frontend_type>
+						<sort_order>1</sort_order>
+						<show_in_default>1</show_in_default>
+						<show_in_website>1</show_in_website>
+						<show_in_store>1</show_in_store>
+						<fields>						
+							<sizes translate="label">
+								<label>Youth Size</label>
+								<comment><![CDATA[Select Sizes which you want to be in Youth Collection]]></comment>
+								<frontend_type>multiselect</frontend_type>                           
+								<source_model>designersoftware/adminhtml_system_config_source_sizes</source_model>                                                     
+								<sort_order>1</sort_order>
+								<show_in_default>1</show_in_default>
+								<show_in_website>1</show_in_website>
+								<show_in_store>1</show_in_store>	
+							</sizes>
+					   </fields>
+				 </youth>
+				 <adult>
+						<label>Adult Sizes</label>
+						<frontend_type>text</frontend_type>
+						<sort_order>2</sort_order>
+						<show_in_default>1</show_in_default>
+						<show_in_website>1</show_in_website>
+						<show_in_store>1</show_in_store>
+						<fields>						
+							<sizes translate="label">
+								<label>Adult Size</label>
+								<comment><![CDATA[Select Sizes which you want to be in Adult Collection]]></comment>
+								<frontend_type>multiselect</frontend_type>                           
+								<source_model>designersoftware/adminhtml_system_config_source_sizes</source_model>                                                     
+								<sort_order>1</sort_order>
+								<show_in_default>1</show_in_default>
+								<show_in_website>1</show_in_website>
+								<show_in_store>1</show_in_store>	
+							</sizes>
+					   </fields>
+				 </adult>
+				 <plus>
+						<label>Plus Sizes</label>
+						<frontend_type>text</frontend_type>
+						<sort_order>3</sort_order>
+						<show_in_default>1</show_in_default>
+						<show_in_website>1</show_in_website>
+						<show_in_store>1</show_in_store>
+						<fields>						
+							<sizes translate="label">
+								<label>Plus Size</label>
+								<comment><![CDATA[Select Sizes which you want to be in Plus Size Collection]]></comment>
+								<frontend_type>multiselect</frontend_type>                           
+								<source_model>designersoftware/adminhtml_system_config_source_sizes</source_model>                                                     
+								<sort_order>1</sort_order>
+								<show_in_default>1</show_in_default>
+								<show_in_website>1</show_in_website>
+								<show_in_store>1</show_in_store>	
+							</sizes>
+					   </fields>
+				 </plus>
+             </groups>          							
+		</designer_sizes>		      
+    </sections>    
+</config> 

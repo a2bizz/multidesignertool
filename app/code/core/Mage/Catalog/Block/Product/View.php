@@ -53,6 +53,7 @@ class Mage_Catalog_Block_Product_View extends Mage_Catalog_Block_Product_Abstrac
         $headBlock = $this->getLayout()->getBlock('head');
         if ($headBlock) {
             $product = $this->getProduct();
+            //echo '<pre>xz';print_r($product);exit;
             $title = $product->getMetaTitle();
             if ($title) {
                 $headBlock->setTitle($title);

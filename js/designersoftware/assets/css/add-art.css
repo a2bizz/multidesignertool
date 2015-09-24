@@ -1,0 +1,424 @@
+.largeInformationText
+{
+	font-family: 'Open Sans','Sans serif';
+	font-size: 16px;
+	font-weight: normal;
+	color: #000000;
+}
+.leftTab_text .uploadSection{ padding: 18px 0 0 3px;}
+.globalBtn
+{
+	background: #4CB500;
+	font-size: 1.6em;
+	display: block;
+	text-align: center;
+	line-height: 1.7;
+	font-size: 16px;
+	color:#FFFFFF;
+	font-family: 'Open Sans','Sans serif';
+	font-weight: normal;cursor:pointer;
+}
+.globalBtn:hover
+{
+	background: #4CB500;
+	text-align: center;
+	color:#FFFFFF;
+	background: #ff4545;
+}
+.uploadBtn{width:139px;height:32px;margin: 26px 0 0 1px;}
+.shopGalleryHeading{display:block;margin: -3px 0 0 4px;}
+.searchArtInput{width:268px;height:35px;float:left;}
+.searchBtn{width:109px;height:35px;display: inline-block;}
+.searchContainer{width:377px;height:35px;margin: 15px 0 0 6px;}
+.categoryContainer{padding-left: 13px;padding-top: 17px;width: 100%;height: 100%;}
+.categoryContainer li{float:left;width:37%;padding-bottom:12px;margin-bottom:0px;cursor:pointer;}		    
+.categoryContainer li a{padding-left: 16px;color:#000000;transition:null;}   
+.categoryContainer li a:hover{color:#41ade2;}
+.addArtNav ul{height: 30px;margin-left: 2px;margin-top: 16px;}
+.searchContainer1{height: 35px;margin: 5px 0 0 3px;width: 377px;}
+.textLineArt{color: #9e9e9e;display: block;font-family: "Open Sans","Sans serif";font-size: 13px;font-weight: normal; margin: 4px 0 0 3px;}
+.textLineArt span{color: #000000;cursor: pointer;}
+.textLineArt span:hover{color: #47b7ee;}
+
+.addArtNav ul li a:hover
+{
+	color:#47b7ee; 
+}
+.sub-category-container
+{
+	width: 100%;
+	height: 100%;
+	
+}
+.art-bottom-info span
+{
+	display: block;
+}
+.art-bottom-info a
+{
+	cursor: pointer;
+	color: #000000;
+    
+    font-family: "titilliummaps26l999_wt";
+    font-size: 16px;
+    font-weight: normal;
+}
+.art-bottom-info a:hover
+{
+	
+    
+    font-family: "titilliummaps26l999_wt";
+    font-size: 16px;
+    font-weight: normal;
+	color: #47b7ee;
+}
+.art-bottom-info div
+{ 
+	background-color: #4cb500;
+    margin-right: 10px;
+    padding-left: 3px;
+}
+.art-bottom-info div span
+{
+	color: #FFFFFF;
+}
+.art-bottom-info div a:hover
+{
+	color: #FFFFFF;
+}
+.horizontal-bar
+{
+	margin:0px;
+}
+.errorContainer
+{
+	width: 55%;
+	border: 1px none black;
+}
+.errorContainer span
+{
+	display: block;
+}
+.errorContainer div.inner-info
+{
+	margin-left: 5px;
+}
+.errorContainer a
+{
+	cursor: pointer;
+	color: #000000;
+    
+    font-family: "titilliummaps26l999_wt";
+    font-size: 16px;
+    font-weight: normal;
+}
+.errorContainer a:hover
+{
+	
+    
+    font-family: "titilliummaps26l999_wt";
+    font-size: 16px;
+    font-weight: normal;
+	color: #47b7ee;
+}
+.sub-category-container a
+{
+	cursor: pointer;
+	color: #000000;
+	
+	
+}
+.sub-category-container a:hover
+{
+	color: #47b7ee;
+}
+.sub-category-container a:focus
+{
+	color: #000000;
+}
+.sub-category-container div.subcat-row 
+{
+	color: #000000;
+	float:left;
+	width: 45%;
+	
+	
+}
+.clipart-container
+{
+	border: 1px none red;
+}
+
+.clipart-container div.inner-container a
+{
+	border: 2px solid #ffffff;
+    display: inline-block;
+    padding: 4px;
+    text-align: center;
+    vertical-align: middle;
+    width: 94px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.clipart-container div
+{
+	border: 1px none black;
+}
+.clipart-container img
+{
+	width: 74px;
+}
+
+.mainCatTitle
+{
+	font-size: 16px;
+	color: #000000;
+	cursor:auto;
+}
+.mainCatTitle.active
+{
+	font-size: 16px;
+	color: #47b7ee;
+}
+
+.mainSubCatTitle
+{
+	font-size: 16px;
+	color: #000000;
+	opacity: 0.4;
+	cursor: auto;
+}
+.selectionInfo a
+{
+	color: #000000;
+    
+    font-family: "titilliummaps26l999_wt";
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.selectionInfo a:hover
+{
+	color: #47b7ee;
+   
+    font-family: "titilliummaps26l999_wt";
+    font-size: 16px;
+    font-weight: normal;
+}
+.art-edit-controls ul li
+{
+	margin-top:10px;
+}
+.art-edit-controls div.control-row
+{
+	
+	float: left;
+	border: 1px none black;
+	margin-right: 38px;
+}
+
+.art-edit-controls div.control-row span
+{
+	margin-left: 6px;
+}
+.art-edit-controls div.control-row a
+{
+	margin-top: 17px;
+}
+.art-edit-controls input[type='checkbox']
+{
+	margin-top: 4px;
+}
+
+.art-edit-controls input[type='text']
+{
+	width: 60px;
+	height: 30px;
+}
+.art-edit-controls div.control2 a.addText
+{
+	margin: -5px 0 0 67px;
+    width: 150px;
+}
+.flip-flop-controls
+{
+	margin-left: -35px;
+    margin-top: -20px;
+}
+.flip-flop-controls a
+{
+	cursor:pointer;
+	border: 1px none black;
+	background-color:#4cb500; 
+	width: 23px;
+	height: 23px;
+	display: inline-block;
+}
+.flip-flop-controls a img
+{
+	margin-left:5px;
+	
+}
+.flip-flop-controls a:hover
+{
+	
+	background-color:#ff4545; 
+}
+.art-color-page
+{
+	background: url("../images/arrow.jpg") no-repeat scroll 95% 8px #ffffff !important;
+    border: 1px solid #cacaca;
+    height: 23px;
+    position: relative;
+    width: 140px;
+}
+
+.art-color-page  a {
+	font-size: 13px;
+	color: #686868;
+	display: block;
+}
+.art-color-page  a span {
+	display: inline-block;
+	/*line-height: 27px;*/
+	padding-left: 8px;
+}
+.art-color-page i.txt-color{
+	width: 20px;
+	height: 16px;
+	background: #000000;
+	float: left;
+	margin-top: 2px;
+	margin-left: 2px;
+}
+
+.art-edit-controls hr
+{
+	margin-top: 2px;
+}
+.delete-art-div
+{
+	margin-top: 10px;
+}
+.delete-art-div a
+{
+	color: #000000;
+}
+.delete-art-div a:hover
+{
+	color: #47b7ee;
+}
+.art-save-design
+{
+	margin-left:216px
+}
+.art-save-design a.addText
+{
+	width: 120px;
+}
+.change-clip-color-section ul li
+{
+	margin-top: 5px;
+}
+
+.artColorUl
+{
+	width: 300px;
+	overflow: hidden
+	
+}
+.artColorUl li
+{
+	float:left;
+	width: 22px;
+	height: 18px;
+	margin-top:2px;
+	margin-right: 3px;
+	/*border: 1px solid black;*/
+}
+.artColorUl  li div
+{
+	width: 22px;
+	height: 18px;
+	cursor:pointer;
+	border: 1px solid black;
+	
+	
+}
+.artColorUl  li div img.slectedColor
+{
+	margin-top: -10px;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+     
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.custom-drop-down ul li
+{
+	border: 1px none black;
+	text-align: center;
+	margin-top:5px;
+	cursor: pointer;
+}
+.custom-drop-down ul li img
+{
+	height: 5px;
+	width:215px;
+	margin:0px auto;
+}
+.select-layer-border 
+{
+	background: url(../images/changeFont.png);
+	display: block;
+    height: 32px;
+    width: 252px;
+    
+    cursor: pointer;
+}
+.select-layer-border img
+{
+	height: 5px;
+    margin-left: 9px;
+    margin-top: 14px;
+    width: 212px;
+}
+.image-effect-holder div
+{
+	float: left;
+	cursor: pointer;
+	margin-right:5px;
+}
+.image-effect-holder
+{
+	display: inline-block;
+}
+.image-effect-holder div img
+{
+	max-width:75px;
+	max-height:60px;
+}
+.image-effect-holder div span
+{
+	font-size: 10px;
+}
+.edit-color-holder a
+{
+	width: 104px;
+}
+
+.x-menu-list img
+{
+	display: inline-block !important;
+}

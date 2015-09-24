@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * A2bizz
+ *
+ * NOTICE OF LICENSE
+ * 
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2006-2015 X.commerce, Inc. (http://www.magento.com)
+ * @license     http://a2bizz.com
+ */
+
+-->
+<layout version="0.1.0">
+    <designer_index_index>
+		<remove name="header"/>
+		<remove name="footer"/>
+		<remove name="breadcrumbs"/>      
+        <reference name="content">
+            <block type="designer/designer" name="designer" template="a2bizz/designer.phtml"/>
+        </reference>
+    </designer_index_index>
+    
+    <catalog_product_view>
+		<reference name="alert.urls">
+			<block type="designer/designer" name="designer" template="a2bizz/catalog/product/view/link.phtml"/>
+		</reference>
+    </catalog_product_view>
+    
+    <designer_product_index translate="label">
+        <label>Designer Product</label>
+        <update handle="catalog_product_view"/>
+		<reference name="product.info.media">
+			<block type="designer/product" name="designer.product.info.media" as="designer_media"/>
+				<!--<action method="setTemplate"><template>a2bizz/catalog/product/view/media.phtml</template></action>-->			
+		</reference>
+    </designer_product_index>    
+</layout>
