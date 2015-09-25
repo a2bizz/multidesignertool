@@ -15,13 +15,26 @@ class A2bizz_Designer_Block_Designer extends Mage_Core_Block_Template
 			return false;
 		endif;
 	}
+	
+	// Check SEO rewrites is exist in URL or not
+    public function indexDotPhpInUrlCheck(){
+		$indexDotPhpInUrlCheck = Mage::getStoreConfig('web/seo/use_rewrites');
+		if($indexDotPhpInUrlCheck):
+			return false;
+		else:
+			return true;
+		endif;
+	}
     
     // Get Url to access file Web path
-    public function getWebPath(){		
+    public function getWebPath(){
+		$storeInUrlAdd = '';
+				
 		if($this->checkStoreInUrl()):
-			$storeInUrlAdd = '';		
-		else:
-			$storeInUrlAdd = '';
+			$storeInUrlAdd .= '../';	
+		endif;
+		if($this->indexDotPhpInUrlCheck()):
+			$storeInUrlAdd .= '../';	
 		endif;
 		
 		return Mage::getBaseUrl() . $storeInUrlAdd;

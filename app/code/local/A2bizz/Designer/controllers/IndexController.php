@@ -1,7 +1,6 @@
 <?php
 class A2bizz_Designer_IndexController extends Mage_Core_Controller_Front_Action
-{
-    // It will call details of a Product (Configurable) for opening in Designer Tool
+{    
     public function indexAction(){			
 		$this->loadLayout();     
 		$this->renderLayout();
@@ -27,11 +26,11 @@ class A2bizz_Designer_IndexController extends Mage_Core_Controller_Front_Action
 	public function colordataAction(){
 		$data = $this->getRequest()->getPost();
              
-		$allColorArray = Mage::helper('designer/products_configurable_associated_color')->getColors($data);
-		$return = Mage::helper('designer/products_configurable_product')->getToolData($this->getRequest()->getPost(),'',$allColorArray['defaultColorId']);		
+		//$allColorArray = Mage::helper('designer/products_configurable_associated_color')->getColors($data);
+		//$return = Mage::helper('designer/products_configurable_product')->getToolData($this->getRequest()->getPost(),'',$allColorArray['defaultColorId']);		
 		// Add to Cache
-		$cacheId = 'colorData_'.$data['productId'];
-		$return = Mage::getModel('designer/config')->cache($cacheId, $return);
+		//$cacheId = 'colorData_'.$data['productId'];
+		//$return = Mage::getModel('designer/config')->cache($cacheId, $return);
 		
 		$this->getResponse()->setBody(Mage::helper('core')->jsonEncode($return));
 	}

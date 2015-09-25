@@ -17,6 +17,9 @@
 		<remove name="header"/>
 		<remove name="footer"/>
 		<remove name="breadcrumbs"/>      
+		<reference name="root">
+            <action method="setTemplate"><template>page/1column.phtml</template></action>
+        </reference>
         <reference name="content">
             <block type="designer/designer" name="designer" template="a2bizz/designer.phtml"/>
         </reference>
@@ -29,7 +32,7 @@
     </catalog_product_view>
     
     <designer_product_index translate="label">
-        <label>Designer Product</label>
+        <label>Designer Product</label>        
         <update handle="catalog_product_view"/>
 		<reference name="product.info.media">
 			<block type="designer/product" name="designer.product.info.media" as="designer_media"/>
